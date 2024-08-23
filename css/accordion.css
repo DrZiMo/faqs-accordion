@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --main-color: #ad28eb;
+    --main-txt-color: #311635;
+    --secondry-txt-color: #807482;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.wrapper {
+    background: url('../assets/images/background-pattern-desktop.svg');
+    width: 100%;
+    height: 40vh;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 35px;
+}
+
+.wrapper .container {
+    width: 500px;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0 8px 20px 0px #9d9d9d;
+    position: relative;
+    top: calc(100% - 80px);
+    border-radius: 10px;
+}
+.wrapper .container .title {
+    display: flex;
+    gap: 15px;
+}
+.wrapper .container .title img {
+    width: 28px;
+}
+.wrapper .container .title h1 {
+    color: var(--main-txt-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+.wrapper .container .content {
+    width: 100%;
+}
+.wrapper .container .content .question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.wrapper .container .content .question img {
+    cursor: pointer;
+}
+.wrapper .container .content .question:hover > h4 {
+    color: var(--main-color);
+    cursor: pointer;
+}
+.wrapper .container .content .answer {
+    color: gray;
+    display: none;
+}
