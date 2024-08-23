@@ -30,7 +30,7 @@ body {
 }
 
 .wrapper .container {
-    width: 500px;
+    width: min(500px, 90%);
     height: fit-content;
     background-color: white;
     box-shadow: 0 8px 20px 0px #9d9d9d;

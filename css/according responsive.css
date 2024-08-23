@@ -1,0 +1,11 @@
+@media (max-width: 400px) {
+    .wrapper .container .title h1 {
+        font-size: 1.8rem;
+    }
+    .wrapper .container .content .question img {
+        width: 27px;
+    }
+    .wrapper .container .content .question h4 {
+        font-size: 0.9rem;
+    }
+}
